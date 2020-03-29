@@ -14,8 +14,8 @@ export class CourseComponent implements OnInit {
   private courses: Array<Course>;
 
   getCourseList() {
-    this.courseService.getCourses().subscribe(courses => {
-      this.courses = courses;
+    this.courseService.getCourses().subscribe(cs => {
+      this.courses = cs;
     });
   }
 
