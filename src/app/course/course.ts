@@ -1,9 +1,11 @@
 export class Course {
+  name: string;
+  professor: string;
+  credits: number;
 
-  constructor(private nameA: string, private professorA: string, private creditsA: number) {
-
+  public constructor(name: string, professor: string, credits: number) {
+    this.name = name;
+    this.professor = professor;
+    this.credits = credits;
   }
-  get name(): string { return this.nameA; }
-  get professor(): string { return this.professorA; }
-  get credits(): number { return this.creditsA; }
 }
