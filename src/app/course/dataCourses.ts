@@ -1,9 +1,9 @@
 import { Course } from "./course";
 
 export const dataCourses = [
-  new Course("Ingeniería de Sw", "Pablo Picasso", 4),
-  new Course("Futbol 1", "Freddy Rincón", 2),
-  new Course("Algoritmos", "Carlos Fuentes", 2),
-  new Course("Estructuras de Datos", "Yesid D", 2),
-  new Course("Futbol 2", "James R", 6),
+  new Course("Ingeniería de software", "Martin Fowler", 4),
+  new Course("Fútbol 1", "Freddy Rincón", 2),
+  new Course("Algoritmos", "Dennis Ritchie", 2),
+  new Course("Estructuras de datos", "Yesid Donoso", 2),
+  new Course("Fútbol 2", "James Rodríguez", 6),
 ];
